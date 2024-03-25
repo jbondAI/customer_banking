@@ -8,7 +8,7 @@ To be added.
 
 ### Skills Demonstrated
 
-The primary skills demonstrated is an ability to **create new functions**.. 
+The primary skills demonstrated is an ability to **create new functions**. 
 
 This challenge assignment also demonstrates use of the following common python coding skills:
 * Proper use of list and dictionary data structures
@@ -28,7 +28,7 @@ Jamie Bond | jamie.l.bond@outlook.com | [Connect on Linkedin](https://linkedin.c
 
 ## Acknowledgments
 
-* Adapted from starter files provided by [The Artificial Intelligence Boot Camp at UNC Charlotte](https://bootcamp.charlotte.edu/artificial-intelligence/), including:
+Adapted from starter files provided by [The Artificial Intelligence Boot Camp at UNC Charlotte](https://bootcamp.charlotte.edu/artificial-intelligence/), including:
 * Accounts.py 
 * savings_acount.py
 * cd_acount.py
