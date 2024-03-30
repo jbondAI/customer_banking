@@ -26,11 +26,12 @@ This challenge assignment also demonstrates use of the following common python c
 ### Dependencies
 
 Python Modules
-* Account.py 
+* Account.py
 * cd_account.py
 * savings_account.py
 * customer_banking
 
+Python Libraries
 * No special libraries required
 
 ## Authors
@@ -41,8 +42,8 @@ Jamie Bond | jamie.l.bond@outlook.com | [Connect on Linkedin](https://linkedin.c
 
 Adapted from starter files provided by [The Artificial Intelligence Boot Camp at UNC Charlotte](https://bootcamp.charlotte.edu/artificial-intelligence/), including:
 * Accounts.py 
-* savings_acount.py
 * cd_acount.py
+* savings_acount.py
 * customer_banking.py
 
 
