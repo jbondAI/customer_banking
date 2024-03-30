@@ -4,7 +4,7 @@ Script for customer banking system that allows users to calculate and track inte
 
 ## Description
 
-Customer Banking script (customer_banking.py) imports functions from external modules to calcuate interest earned by a banking customer.
+__Customer Banking script (customer_banking.py)__ (main script) imports functions from external modules to calcuate interest earned by a banking customer.
 
 * __Account module (Account.py)__ creates an account class with two attributes: starting balance and interest rate
 * __CD Account module (cd_account.py)__ and __Savings Account module (savings_account.py)__ each import the account class from Account module, uses it to calcuate interests earned from a CD and savings account, respectively, and returns updated account balances and interest earned back to the customer banking script
