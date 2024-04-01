@@ -14,24 +14,23 @@ def create_cd_account(balance, interest_rate, months):
         float: The updated CD account balance after adding the interest earned.
         And returns the interest earned.
     """
+    # Sets the starting value for the interest gained
+    interest = 0
+
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
-    #  Hint: You need to add the interest as a value, i.e, 0.
-
-    interest= 0.0
-
     CDAccount = Account(balance, interest)
        
     # Calculate interest earned calcuated 
-    interest_earned = balance * interest_rate / 100 * months / 12
+    interest_earned = balance * (interest_rate / 100 * months / 12)
 
     # Update the CD account balance by adding the interest earned
     updated_cd_balance = balance + interest_earned
 
     # Pass the updated_balance to the set balance method using the instance of the CDAccount class.
-    updated_cd_balance = CDAccount.set_balance(updated_cd_balance)
+    CDAccount.set_balance(updated_cd_balance)
 
     # Pass the interest_earned to the set interest method using the instance of the CDAccount class.
-    interest_earned = CDAccount.set_interest(interest_earned)
+    CDAccount.set_interest(interest_earned)
 
     # Return the updated balance and interest earned.
     return updated_cd_balance, interest_earned
