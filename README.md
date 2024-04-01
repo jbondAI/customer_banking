@@ -1,35 +1,28 @@
 # Customer Banking
 
-Script for customer banking system that allows users to calculate and track interest earned on savings and CD accounts
+Script for customer banking system that prompts the user to enter the savings and cd account balance, interest rate, and the length of months to determine the interest gained.
 
 ## Description
 
-__Customer Banking script (customer_banking.py)__ (main script) imports functions from external modules to calcuate interest earned by a banking customer.
+__Customer Banking script (customer_banking.py)__ (main script) imports two functions that, when passed three arguments, calcuate interest earned from two different account types.
 
-* __Account module (Account.py)__ creates an account class with two attributes: starting balance and interest rate
-* __CD Account module (cd_account.py)__ and __Savings Account module (savings_account.py)__ each import the account class from Account module, uses it to calcuate interests earned from a CD and savings account, respectively, and returns updated account balances and interest earned back to the customer banking script
+* __Account module (Account.py)__ defines a class object (Account) which sets the account balance and sets the interest earned for a custmer account
+
+* __CD Account module (cd_account.py)__ and __Savings Account module (savings_account.py)__ each accept the balance, interest rate and time to maturity as arguments and calcuate the the amount of interest earned and the balance when the accounts reach maturity. Each of these modules also create and instance of the Account class (for a savings account and a cd account), and pass the interst amount earned and updated balance to their respective account class instances.
 
 ### Skills Demonstrated
 
-The primary skills demonstrated is an ability to
-* import and use external Python modules and funtions
-* create reusable, modular code using Python classes
-* leverage refactoring to make readable code
-
-This challenge assignment also demonstrates use of the following common python coding skills:
-* Proper use of list and dictionary data structures
-* Ability to intake, validate and use user inputs
-* Proper use of conditional statements and loops
-* Use of various methods and functions to change case and data type of user input
-* Ability to perform calculations 
+The primary skills demonstrated include the ability to:
+* Create reusable, modular code 
+* Create and use multiple instances of a class object 
 
 ### Dependencies
 
 Python Modules
-* Account.py (creates Account class)
-* cd_account.py (imports Account class; contains function for calculating CD interest)
-* savings_account.py (imports Account class; contains function for calculating savings interest)
-* customer_banking (main script; imports cd_account and savings_account functions)
+* Account.py (Account class object)
+* cd_account.py (function for calcuating interest earned on a cd account)
+* savings_account.py (function for calcuating interest earned on a savings account)
+* customer_banking (main script to capture user, import functions and display outputs)
 
 Python Libraries
 * No special libraries required
