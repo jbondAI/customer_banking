@@ -6,9 +6,9 @@ Script for customer banking system that prompts the user to enter the savings an
 
 __Customer Banking script (customer_banking.py)__ (main script) imports two functions that, when passed three arguments, calcuate interest earned from two different account types.
 
-* __Account module (Account.py)__ defines a class object (Account) which sets the account balance and sets the interest earned for a custmer account
+ __Account module (Account.py)__ defines a class object (Account) which sets the account balance and sets the interest earned for a custmer account
 
-* __CD Account module (cd_account.py)__ and __Savings Account module (savings_account.py)__ each accept the balance, interest rate and time to maturity as arguments and calcuate the the amount of interest earned and the balance when the accounts reach maturity. Each of these modules also create and instance of the Account class (for a savings account and a cd account), and pass the interst amount earned and updated balance to their respective account class instances.
+__CD Account module (cd_account.py)__ and __Savings Account module (savings_account.py)__ each accept the balance, interest rate and time to maturity as arguments and calcuate the the amount of interest earned and the balance when the accounts reach maturity. Each of these modules also create and instance of the Account class (for a savings account and a cd account), and pass the interst amount earned and updated balance to their respective account class instances.
 
 ### Skills Demonstrated
 
