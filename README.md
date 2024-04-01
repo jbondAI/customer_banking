@@ -26,10 +26,10 @@ This challenge assignment also demonstrates use of the following common python c
 ### Dependencies
 
 Python Modules
-* Account.py
-* cd_account.py
-* savings_account.py
-* customer_banking
+* Account.py (creates Account class)
+* cd_account.py (imports Account class; contains function for calculating CD interest)
+* savings_account.py (imports Account class; contains function for calculating savings interest)
+* customer_banking (main script; imports cd_account and savings_account functions)
 
 Python Libraries
 * No special libraries required
